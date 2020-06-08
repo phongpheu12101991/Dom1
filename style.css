@@ -1,0 +1,77 @@
+* {
+  box-sizing: border-box;
+  margin: 5px;
+}
+
+.b1 {
+  display: flex;
+  font-size: 20px;
+}
+#div2 {
+  width: 50px;
+  height: 50px;
+  background-color: black;
+}
+#div3 {
+  width: 50px;
+  height: 50px;
+  background-color: black;
+  visibility: visible;
+}
+
+#div4 {
+  width: 50px;
+  height: 50px;
+  background-color: black;
+}
+
+#b5 {
+  position: absolute;
+  top: 2px;
+  left: 25px;
+  width: 100px;
+  height: 50px;
+  border: 1px solid black;
+  text-align: center;
+  font-weight: bold;
+}
+
+#yes {
+  position: absolute;
+  top: 55px;
+  left: 10px;
+  width: 40px;
+  height: 20px;
+  border: 1px solid black;
+  text-align: center;
+  font-weight: bold;
+}
+
+#no {
+  position: absolute;
+  top: 55px;
+  right: 10px;
+  width: 40px;
+  height: 20px;
+  border: 1px solid black;
+  text-align: center;
+  font-weight: bold;
+}
+#ccc {
+  position: absolute;
+  bottom: 2px;
+  left: 25px;
+  width: 100px;
+  height: 20px;
+  border: 1px solid black;
+  text-align: center;
+  font-weight: bold;
+  visibility: hidden;
+}
+
+#all {
+  border: 1px solid black;
+  width: 150px;
+  height: 120px;
+  position: relative;
+}
